@@ -5,11 +5,11 @@ public class DuplicateEntry {
     private int index;
     private int duplicatedValue;
     private ArrayList<Integer> positions;
-    public DuplicateEntry(String t, int i, int v, ArrayList<Integer> p) {
-        this.type = t;
-        this.index = i;
-        this.duplicatedValue = v;
-        this.positions = p;
+    public DuplicateEntry(String type, int index, int duplicatedValue, ArrayList<Integer> positions) {
+        this.type = type;
+        this.index = index;
+        this.duplicatedValue = duplicatedValue;
+        this.positions = positions;
     }
     public ArrayList<Integer> getPositions() {
         return positions;

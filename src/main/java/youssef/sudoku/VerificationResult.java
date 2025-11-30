@@ -4,9 +4,9 @@ import java.util.List;
 public class VerificationResult {
     private boolean valid;
     private List<DuplicateEntry> list;
-    public VerificationResult(boolean v, List<DuplicateEntry> l) {
-        this.valid = v;
-        this.list = l;
+    public VerificationResult(boolean valid, List<DuplicateEntry> list) {
+        this.valid = valid;
+        this.list = list;
     }
     public boolean isValid() {
         return valid;
