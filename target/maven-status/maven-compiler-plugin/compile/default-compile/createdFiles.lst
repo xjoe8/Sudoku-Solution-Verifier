@@ -1,0 +1,11 @@
+youssef/sudoku/Sudoku.class
+youssef/sudoku/VerificationResult.class
+youssef/sudoku/ThreadedVerifier3$BoxChecker.class
+youssef/sudoku/ThreadedVerifier3$RowChecker.class
+youssef/sudoku/SequentialVerifier.class
+youssef/sudoku/DuplicateEntry.class
+youssef/sudoku/SudokuVerifier.class
+youssef/sudoku/ThreadedVerifier3.class
+youssef/sudoku/ThreadedVerifier3$ColChecker.class
+youssef/sudoku/VerifierFactory.class
+youssef/sudoku/ThreadedVerifier27.class
