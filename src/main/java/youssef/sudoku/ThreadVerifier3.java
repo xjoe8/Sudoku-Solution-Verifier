@@ -2,7 +2,7 @@ package youssef.sudoku;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-public class ThreadedVerifier3 implements SudokuVerifier {
+public class ThreadVerifier3 implements SudokuVerifier {
     private List<DuplicateEntry> list = Collections.synchronizedList(new ArrayList<>());
     private int[][] board;
     public VerificationResult verify(int[][] board) {

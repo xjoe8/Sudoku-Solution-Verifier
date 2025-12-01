@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5081223a-309b-45ac-91ce-25a0fdccdbb8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/youssef/sudoku/DuplicateEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/youssef/sudoku/DuplicateEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/youssef/sudoku/ThreadedVerifier27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/youssef/sudoku/ThreadedVerifier27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/youssef/sudoku/VerificationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/youssef/sudoku/VerificationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sudoku.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/youssef/sudoku/SequentialVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/youssef/sudoku/SequentialVerifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/youssef/sudoku/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/youssef/sudoku/Sudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/youssef/sudoku/ThreadedVerifier27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/youssef/sudoku/ThreadVerifier27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/youssef/sudoku/ThreadedVerifier3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/youssef/sudoku/ThreadVerifier3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/youssef/sudoku/VerifierFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/youssef/sudoku/VerifierFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sudoku-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sudoku-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

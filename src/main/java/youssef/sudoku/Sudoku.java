@@ -22,18 +22,18 @@ public class Sudoku {
                     board[r][c] = Integer.parseInt(arr[c]);
                 r++;
             }
+            SudokuVerifier verifier = VerifierFactory.create(mode);
+            VerificationResult result = verifier.verify(board);
+            if (result.isValid())
+                System.out.println("VALID");
+            else {
+                System.out.println("INVALID");
+                for (DuplicateEntry d : result.getDuplicates()) {
+                    System.out.println(d.getType() + " " + d.getIndex() + ", #" + d.getDuplicatedValue() + ", " + d.getPositions());
+                }
+            }
         } catch (IOException e) {
             System.out.println("Error in Reading CSV File");
-        }
-        SudokuVerifier verifier = VerifierFactory.create(mode);
-        VerificationResult result = verifier.verify(board);
-        if (result.isValid())
-            System.out.println("VALID");
-        else {
-            System.out.println("INVALID");
-            for (DuplicateEntry d : result.getDuplicates()) {
-                System.out.println(d.getType() + " " + d.getIndex() + ", #" + d.getDuplicatedValue() + ", " + d.getPositions());
-            }
         }
     }
 }
